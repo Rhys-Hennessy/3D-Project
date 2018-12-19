@@ -27,6 +27,6 @@ public class GameManager : MonoBehaviour {
     public void AddSheep(int sheepToAdd)
     {
         currentSheep += sheepToAdd;
-        sheepText.text  = " " +currentSheep;
+        sheepText.text  = " " + currentSheep;
     }
 }
